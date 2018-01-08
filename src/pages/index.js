@@ -1,13 +1,24 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "gatsby-link";
+
+import "../assets/css/main.css";
+
+import Header from "../components/Header";
+import About from "../components/About";
+import Resume from "../components/Resume";
+import Portfolio from "../components/Portfolio";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Header />
+    <About />
+    <Resume />
+    <Portfolio />
+    <Testimonials />
+    <Footer />
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

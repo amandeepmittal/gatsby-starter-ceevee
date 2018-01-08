@@ -1,13 +1,14 @@
-# gatsby-starter-default
-The default Gatsby starter
+# gatsby-starter-ceevee
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+🚀 Gatsby Starter - CeeVee | Design by Styleshout | Developed in React ⚛️ by Aman Mittal
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+**[Demo Link]()**
 
-## Deploy
+### Features:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+* Based off of the Ceevee site template.
+* Single Page Resume/Portfolio site
+* Target audience Developers, Designers, etc.
+* Used CSS Modules, easy to manipulate
+* FontAwsome Library for icons
+* Responsive Design, optimized for Mobile devices

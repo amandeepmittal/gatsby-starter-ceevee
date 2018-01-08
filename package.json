@@ -6,15 +6,21 @@
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.14",
     "gatsby-plugin-sharp": "^1.6.21",
+    "gatsby-plugin-typography": "1.7.10",
     "gatsby-remark-copy-linked-files": "^1.5.9",
     "gatsby-remark-images": "^1.5.33",
     "gatsby-source-filesystem": "^1.5.8",
     "gatsby-transformer-remark": "^1.7.21",
-    "gatsby-transformer-sharp": "^1.6.14"
+    "gatsby-transformer-sharp": "^1.6.14",
+    "react-icons": "2.2.7",
+    "react-slick": "0.16.0",
+    "slick-carousel": "1.8.1",
+    "typography-theme-bootstrap": "0.16.7"
   },
   "keywords": [
     "gatsby"
