@@ -2,7 +2,7 @@
 
 🚀 Gatsby Starter - CeeVee | Design by Styleshout | Developed in React ⚛️ by Aman Mittal
 
-**[Preview Link]()**
+**[Preview Link](https://gatsby-starter-ceevee.surge.sh)**
 
 ### Features:
 
