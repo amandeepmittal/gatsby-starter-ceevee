@@ -19,6 +19,10 @@ Install this starter (assuming Gatsby is installed) by running from your CLI: ga
 
 Run `gatsby develop` in the terminal to start.
 
+---
+
+Find more starter templates like this on [Gatsby Starters](https://www.gatsbyjs.org/docs/gatsby-starters/)
+
 ### Contributors Welcome
 
 #### License
