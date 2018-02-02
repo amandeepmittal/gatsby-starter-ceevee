@@ -11,10 +11,12 @@ const Banner = () => (
         and effective visual identities for companies of all sizes around the
         globe. Let's
         <a className="smoothscroll" href="#about">
+          {" "}
           start scrolling
-        </a>
+        </a>{" "}
         and learn more
         <a className="smoothscroll" href="#about">
+          {" "}
           about me
         </a>.
       </h3>
