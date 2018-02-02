@@ -5,6 +5,7 @@
   "author": "Aman Mittal <amandeepmittal@live.com>",
   "dependencies": {
     "gatsby": "^1.9.145",
+    "gatsby-cli": "^1.1.34",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-google-analytics": "^1.0.12",
     "gatsby-plugin-google-fonts": "0.0.3",
@@ -22,14 +23,15 @@
     "slick-carousel": "1.8.1",
     "typography-theme-bootstrap": "0.16.7"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
