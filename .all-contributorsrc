@@ -1,0 +1,20 @@
+{
+  "projectName": "",
+  "projectOwner": "Aman Mittal",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 75,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "code",
+      "name": "codegent",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7318?v=4",
+      "profile": "http://www.codegent.com",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ]
+}
