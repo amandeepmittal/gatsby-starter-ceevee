@@ -15,7 +15,8 @@
       "contributions": [
         "question",
         "code",
-        "review"
+        "review",
+        "bug"
       ]
     }
   ]
