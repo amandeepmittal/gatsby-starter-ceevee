@@ -35,12 +35,5 @@ MIT
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/7318?v=4" width="100px;"/><br /><sub><b>codegent</b></sub>](http://www.codegent.com)<br />[💬](#question-code "Answering Questions") [💻](https://github.com/amandeepmittal/gatsby-starter-ceevee/commits?author=code "Code") [👀](#review-code "Reviewed Pull Requests") [🐛](https://github.com/amandeepmittal/gatsby-starter-ceevee/issues?q=author%3Acode "Bug reports") |
-| :---: |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+* [www.amanhimself.me](Aman Mittal)
+* [https://github.com/jastuccio](Joe)
