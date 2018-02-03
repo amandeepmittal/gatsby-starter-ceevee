@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaGooglePlusSquare,
-  FaInstagram,
-  FaGithubSquare
-} from "react-icons/lib/fa";
+import SocialLinks from "./SocialLinks";
 
 const Banner = () => (
   <div className="row banner">
@@ -27,33 +21,7 @@ const Banner = () => (
         </a>.
       </h3>
       <hr />
-      <ul className="social">
-        <li>
-          <a href="#">
-            <FaFacebookSquare />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaTwitterSquare />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaGooglePlusSquare />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaInstagram />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaGithubSquare />
-          </a>
-        </li>
-      </ul>
+      <SocialLinks />
     </div>
   </div>
 );

@@ -1110,7 +1110,7 @@ ul#nav li.current a {
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-  
+
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -1120,7 +1120,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  
+
   margin-top: 6px;
 }
 
@@ -1880,7 +1880,7 @@ footer {
   padding-top: 48px;
   margin-bottom: 48px;
   color: #303030;
-  font-size: 14px;
+  /* font-size: 14px; */
   text-align: center;
   position: relative;
 }
@@ -1919,20 +1919,21 @@ footer .copyright li:first-child:before {
 }
 
 /* social links */
-footer .social-links {
+footer .social {
   margin: 18px 0 30px 0;
   padding: 0;
   font-size: 30px;
 }
-footer .social-links li {
+footer .social li {
   display: inline-block;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   margin-left: 42px;
   color: #f06000;
 }
 
-footer .social-links li:first-child {
+footer .social li:first-child {
   margin-left: 0;
 }
 
@@ -1999,7 +2000,7 @@ footer .social-links li:first-child {
  header .banner { padding-bottom: 12px; }
  header .banner-text h1 {
     font: 78px/1.1em 'opensans-bold', sans-serif;
-    letter-spacing: -1px;      
+    letter-spacing: -1px;
  }
  header .banner-text h3 {
     font: 17px/1.9em 'librebaskerville-regular', serif;
@@ -2029,7 +2030,7 @@ footer .social-links li:first-child {
  /* Resume Section
  ------------------------------------------------------------------- */
  #resume h1 { font: 16px/24px  }
- #resume .main-col { padding-right: 5%; }   
+ #resume .main-col { padding-right: 5%; }
 
  /* Testimonials Section
  ------------------------------------------------------------------- */
@@ -2039,7 +2040,7 @@ footer .social-links li:first-child {
  }
  #testimonials blockquote p {
     font-size: 22px;
-    line-height: 46px;      
+    line-height: 46px;
  }
 
   /* Call to Action Section
@@ -2071,7 +2072,7 @@ footer .social-links li:first-child {
  #nav-wrap {
     font: 12px 'opensans-bold', sans-serif;
     background: transparent !important;
-    letter-spacing: 1.5px;  
+    letter-spacing: 1.5px;
     width: auto;
     position: fixed;
     top: 0;
@@ -2117,8 +2118,8 @@ footer .social-links li:first-child {
     height: auto;
   display: none;
     clear: both;
-    width: auto; 
-    float: right;     
+    width: auto;
+    float: right;
 
     position: relative;
     top: 12px;
@@ -2136,22 +2137,22 @@ footer .social-links li:first-child {
 
  ul#nav li {
     display: block;
-    height: auto;      
-    margin: 0 auto; 
-    padding: 0 4%;           
+    height: auto;
+    margin: 0 auto;
+    padding: 0 4%;
     text-align: left;
     border-bottom: 1px solid #2D2E34;
-    border-bottom-style: dotted; 
+    border-bottom-style: dotted;
  }
 
- ul#nav li a {  
-    display: block;    
+ ul#nav li a {
+    display: block;
     margin: 0;
-    padding: 0;      
-    margin: 12px 0; 
+    padding: 0;
+    margin: 12px 0;
     line-height: 16px; /* reset line-height from 48px */
     border: none;
- }  
+ }
 
 
  /* Header Styles
@@ -2174,7 +2175,7 @@ footer .social-links li:first-child {
  header .social {
     margin: 18px 0 24px 0;
     font-size: 24px;
-    line-height: 36px;      
+    line-height: 36px;
  }
  header .social li { margin: 0 10px; }
 
@@ -2203,7 +2204,7 @@ footer .social-links li:first-child {
  #resume h1 { letter-spacing: 3px; }
  #resume .main-col { padding-right: 30px; }
  #resume h3, #resume .info { text-align: center; }
-    
+
  .bars { width: 100%; }
 
 
@@ -2241,7 +2242,7 @@ footer .social-links li:first-child {
  #testimonials blockquote { padding-bottom: 24px; }
  #testimonials blockquote p {
     font-size: 20px;
-    line-height: 42px;      
+    line-height: 42px;
  }
 
  /* Control Nav */
@@ -2256,11 +2257,11 @@ footer .social-links li:first-child {
  #contact { padding-bottom: 66px; }
  #contact .section-head { margin-bottom: 12px; }
  #contact .section-head h1 {
-    font: 16px/24px 'opensans-bold', sans-serif;            
-    text-align: center;   
+    font: 16px/24px 'opensans-bold', sans-serif;
+    text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
- }  
+ }
  #contact h1 span { display: block; }
  #contact .header-col { padding-top: 0; }
  #contact .header-col h1:before { content: none;	}
@@ -2274,7 +2275,7 @@ footer .social-links li:first-child {
  #contact input,
  #contact textarea,
  #contact select {
-     margin-bottom: 6px;    	
+     margin-bottom: 6px;
     width: 100%;
  }
  #contact button.submit { margin: 30px 0 24px 0; }
@@ -2292,8 +2293,8 @@ footer .social-links li:first-child {
  footer .copyright li { margin-right: 12px; }
 
  /* social links */
- footer .social-links { font-size: 22px; }
- footer .social-links li { margin-left: 18px; }
+ footer .social { font-size: 22px; }
+ footer .social li { margin-left: 18px; }
 
  /* Go To Top Button */
  #go-top { margin-left: -22px; }
@@ -2320,7 +2321,7 @@ footer .social-links li:first-child {
  -------------------------------------------------------------------- */
  header .banner { padding-top: 24px; }
  header .banner-text h1 {
-    font: 40px/1.1em 'opensans-bold', sans-serif;      
+    font: 40px/1.1em 'opensans-bold', sans-serif;
     margin: 0 auto 24px auto;
  }
  header .banner-text h3 {
@@ -2336,8 +2337,8 @@ footer .social-links li:first-child {
  ------------------------------------------------------------------------ */
 
  /* social links */
- footer .social-links { font-size: 20px; }
- footer .social-links li { margin-left: 14px; }   
+ footer .social { font-size: 20px; }
+ footer .social li { margin-left: 14px; }
 
 }
 
