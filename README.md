@@ -27,7 +27,9 @@ Run `gatsby develop` in the terminal to start.
 
 Find more starter templates like this on [Gatsby Starters](https://www.gatsbyjs.org/docs/gatsby-starters/)
 
-### Contributors Welcome
+### NOTE
+
+If you are using this theme with Gatsby, please leave a link of your site below. You can inspire someone!
 
 #### License
 
