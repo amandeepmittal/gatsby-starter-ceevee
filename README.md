@@ -19,7 +19,8 @@
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI: 
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+
 `gatsby new gatsby-starter-ceevee https://github.com/amandeepmittal/gatsby-starter-ceevee`
 
 Run `gatsby develop` in the terminal to start.
