@@ -37,3 +37,4 @@ MIT
 
 * [Aman Mittal](www.amanhimself.me)
 * [Joe](https://github.com/jastuccio)
+* [Elohina](www.elohinaguevara.com)
