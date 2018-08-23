@@ -31,6 +31,11 @@ Find more starter templates like this on [Gatsby Starters](https://www.gatsbyjs.
 
 If you are using this theme with Gatsby, please leave a link of your site below. You can inspire someone!
 
+## Showcase
+
+* [astucc.io](https://astucc.io/)
+* [elohinaguevara.com](www.elohinaguevara.com)
+
 #### License
 
 MIT
