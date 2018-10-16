@@ -1410,8 +1410,9 @@ ul#nav li.current a {
 .popup-modal {
   max-width: 550px;
   background: #fff;
-  position: relative;
+  position: fixed;
   margin: 0 auto;
+  z-index: 99999;
 }
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
@@ -1460,21 +1461,33 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 /* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+.popup-modal {
   opacity: 0;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   -ms-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
+  pointer-events: none;
 }
 /* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+.popup-modal:target {
   opacity: 1;
+  pointer-events: auto;
+  position: absolute;
+  left: 30.9%;
 }
-/* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
-  opacity: 0;
+
+.popup-modal > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
 }
 
 /* ------------------------------------------------------------------ */
@@ -2341,12 +2354,3 @@ footer .social li:first-child {
  footer .social li { margin-left: 14px; }
 
 }
-
-
-
-
-
-
-
-
-

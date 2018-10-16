@@ -10,6 +10,15 @@ import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
+import CoffeeModal from "../assets/images/portfolio/modals/m-coffee.jpg";
+import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
+import JudahModal from "../assets/images/portfolio/modals/m-judah.jpg";
+import IntoTheLightModal from "../assets/images/portfolio/modals/m-intothelight.jpg";
+import FarmerboyModal from "../assets/images/portfolio/modals/m-farmerboy.jpg";
+import GirlModal from "../assets/images/portfolio/modals/m-girl.jpg";
+import OrigamiModal from "../assets/images/portfolio/modals/m-origami.jpg";
+import RetrocamModal from "../assets/images/portfolio/modals/m-retrocam.jpg";
+
 const Portfolio = () => (
   <section id="portfolio">
     <div className="row">
@@ -158,10 +167,10 @@ const Portfolio = () => (
         </div>
       </div>
 
-      {/* <div id="modal-01" className="popup-modal mfp-hide">
+      <div id="modal-01" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-coffee.jpg"
+          src={CoffeeModal}
           alt=""
         />
 
@@ -179,14 +188,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-02" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-console.jpg"
+          src={ConsoleModal}
           alt=""
         />
 
@@ -204,14 +213,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-03" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-judah.jpg"
+          src={JudahModal}
           alt=""
         />
 
@@ -229,14 +238,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-04" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-intothelight.jpg"
+          src={IntoTheLightModal}
           alt=""
         />
 
@@ -254,14 +263,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-05" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-farmerboy.jpg"
+          src={FarmerboyModal}
           alt=""
         />
 
@@ -279,14 +288,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-06" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-girl.jpg"
+          src={GirlModal}
           alt=""
         />
 
@@ -304,14 +313,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-07" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-origami.jpg"
+          src={OrigamiModal}
           alt=""
         />
 
@@ -329,14 +338,14 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
 
       <div id="modal-08" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
-          src="images/portfolio/modals/m-retrocam.jpg"
+          src={RetrocamModal}
           alt=""
         />
 
@@ -354,9 +363,9 @@ const Portfolio = () => (
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
-      </div> */}
+      </div>
     </div>
   </section>
 );
