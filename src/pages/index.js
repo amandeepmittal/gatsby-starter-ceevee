@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 
 import "../assets/css/main.css";
 
+import Layout from "../layouts/index";
 import Header from "../components/Header";
 import About from "../components/About";
 import Resume from "../components/Resume";
@@ -11,14 +12,14 @@ import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <Header />
     <About />
     <Resume />
     <Portfolio />
     <Testimonials />
     <Footer />
-  </div>
+  </Layout>
 );
 
 export default IndexPage;

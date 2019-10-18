@@ -18,9 +18,9 @@ const TemplateWrapper = ({ children }) => (
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
       <title>{siteMetadata.title}</title>
-      <link rel="icon" href="../assets/favicon.png" type="image/x-icon"/>
+      <link rel="icon" href="../assets/favicon.png" type="image/x-icon" />
     </Helmet>
-    {children()}
+    {children}
   </div>
 );
 
