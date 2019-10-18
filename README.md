@@ -34,7 +34,7 @@ If you are using this theme with Gatsby, please leave a link of your site below.
 ## Showcase
 
 * [astucc.io](https://astucc.io/)
-* [elohinaguevara.com](www.elohinaguevara.com)
+* [elohinaguevara.com](http://www.elohinaguevara.com)
 
 #### License
 
@@ -42,6 +42,6 @@ MIT
 
 ## Contributors
 
-* [Aman Mittal](www.amanhimself.me)
+* [Aman Mittal](http://www.amanhimself.me)
 * [Joe](https://github.com/jastuccio)
-* [Elohina](www.elohinaguevara.com)
+* [Elohina](http://www.elohinaguevara.com)
