@@ -1,5 +1,11 @@
 # gatsby-starter-ceevee
 
+## ⚠️ Currently not actively maintained
+
+Hey! I created this project when I was dipping my toes into the world of web development. A lot has happened since then. Currently, this project is not actively maintained so I am going to archive it. Feel free to fork or take over it if you still want to maintain it. Although, I think the web dev world has come a long way since then especially for personal blogs and portfolio sites. ✌️
+
+---
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 🚀 Gatsby Starter - CeeVee | Design by Styleshout | Developed in React ⚛️ by Aman Mittal
